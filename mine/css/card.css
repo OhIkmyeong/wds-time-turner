@@ -22,7 +22,7 @@
 .top-bg{
     display:block;position:absolute; overflow:hidden;
     width:100%; height:50%;
-    background:white;
+    background:var(--gd);
     border-radius:var(--rad-top);
     line-height:120%;
 }
@@ -51,7 +51,7 @@
     .mv.on{
         /* animation:spin .9s linear forwards; */
         transform:rotateX(180deg);
-        transition:transform .95s;
+        transition:transform .92s;
     }
 
     /* @keyframes spin {to{transform:rotateX(180deg);}} */
@@ -65,7 +65,7 @@
 
     .top-mv{
         transform:rotateX(0deg);
-        line-height:120%;background:white;}
+        line-height:120%;background:var(--gd);}
     .btm-mv{
         transform-origin:center center;
         transform:rotateX(180deg);

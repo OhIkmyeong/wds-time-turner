@@ -27,6 +27,6 @@ export function get_text_time($$card,clsName){
     }).join('');
 }//get_text_time
 
-export function is_same_content($bBg,$tBg){
-    return $bBg.textContent == $tBg.textContent;
+export function is_same_content($el_1,$el_2){
+    return $el_1.textContent == $el_2.textContent;
 }//is_same_content
