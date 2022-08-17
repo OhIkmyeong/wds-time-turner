@@ -8,7 +8,6 @@
     --rad-top:var(--rad) var(--rad) 0 0;
     --rad-bottom:0 0 var(--rad) var(--rad);
     --gd:linear-gradient(to bottom,#eee,white);
-
 }
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
 html,body{
